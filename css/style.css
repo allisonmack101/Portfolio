@@ -1,0 +1,34 @@
+p{
+    color: white;
+    border: dotted;
+    font-family:courier;
+}
+
+a{
+    color:purple;
+}
+
+h3{
+    color:purple;
+}
+
+#basketball {
+    border: solid;
+    border-color: white;
+    border width: 6 px;
+    padding: 25 px; 
+}
+
+h1{
+    color:white;
+    font: courier;
+    text-decoration: underline;
+}
+
+#friendimage{
+    border:dashed;
+}
+
+body{
+    background-attachment: fixed;
+}
