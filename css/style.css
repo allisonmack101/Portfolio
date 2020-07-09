@@ -32,3 +32,17 @@ h1{
 body{
     background-attachment: fixed;
 }
+
+.warriorsplayers{
+    height: 200px;
+}
+
+h3{
+    color:white;
+}
+
+#basketballlist{
+    position: absolute;
+    top: 1433px;
+    right: 750px;
+}
