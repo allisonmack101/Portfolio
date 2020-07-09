@@ -22,7 +22,7 @@ li{
     border:dashed;
 }
 
-p{
+#p1{
     color:white;
     border:dashed;
     border-color: white;
@@ -32,3 +32,28 @@ p{
 h2{
     color:cornflowerblue;
 }
+
+p{
+    color:purple;
+    font-family: courier;
+}
+
+#lily{
+    float:right;
+}
+
+#lily1{
+    position:relative;
+}
+
+#kendallpic{
+    position:relative;
+    left:280px;
+}
+
+#kendall1{
+    position:relative;
+    left:480px;
+    bottom: 68px;
+}
+

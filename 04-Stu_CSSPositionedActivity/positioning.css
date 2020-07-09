@@ -1,0 +1,29 @@
+body {
+    background-color:#eee;
+}
+
+#boxfixed{
+    background-color: #999;
+    position: fixed;
+    text-align: center;
+    padding: 27px;
+}
+
+#box2{
+    background-color: #999;
+    position: absolute;
+    text-align: center;
+    top:450px;
+}
+#box1{
+    position:absolute;
+    background-color: #999;
+    text-align: center; 
+    right: 350px;
+    padding: 120px;
+    width: 250px;
+    height: 0px;
+}
+
+
+

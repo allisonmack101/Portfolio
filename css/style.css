@@ -21,6 +21,9 @@ h3{
 
 h1{
     color:white;
+    position: sticky;
+    top:0px;
+
     font: courier;
     text-decoration: underline;
 }
@@ -42,7 +45,30 @@ h3{
 }
 
 #basketballlist{
-    position: absolute;
-    top: 1433px;
-    right: 750px;
+    position: relative;
+    bottom:120px;
+    left: 260px;
+}
+
+#warriorstitle{
+    text-decoration: underline;
+    color:black;
+    position:relative;
+}
+
+.giantsplayers{
+    height: 200px;
+}
+
+#giantstitle{
+    position:relative;
+    text-decoration: underline;
+    color:black;
+}
+
+#baseball{
+    border: solid;
+    border-color: white;
+    border width: 6 px;
+    padding: 25 px; 
 }
