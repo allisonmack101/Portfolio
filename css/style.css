@@ -149,15 +149,17 @@ h5{
 .warriorsplayers{
     height: 250px;
     padding: 10px;
+    position: relative;
+    bottom: 300px;
 }
 
 #stephstats{
     width:500px;
     background-color:white; 
-    position:absolute;
+    position:relative;
     padding: 10px;
-    top:1975px;
-    right:320px;
+    left: 700px;
+    bottom: 400px;
     text-align: center; 
 }
 
@@ -207,10 +209,60 @@ h5{
 
 .giantsplayers{
     height: 310px;
+    position: relative;
+    bottom:280px;
     padding: 10px;
 }
 
 #poseystats{
+    width:500px;
+    background-color:white; 
+    position:relative;
+    bottom:340px;
+    left:500px;
+    text-align: center; 
+}
+
+
+
+
+#sharkstitle{
+    text-decoration: underline;
+    color:lightskyblue;
+    position:relative;
+    text-align: center;
+    font-size: 35px;
+}
+
+#hockey {
+    color:white;
+    margin:auto;
+    font-size: 26px;
+}
+
+#sharkslogo{
+    float:left;
+    padding: 10px;
+}
+
+h5{
+    color:white;
+}
+
+#hockeylist{
+    position: relative;
+    bottom:119px;
+    left: 260px;
+}
+
+.sharksplayers{
+    height: 300px;
+    position: relative;
+    bottom: 300px;
+    padding: 10px;
+}
+
+#timostats{
     width:500px;
     background-color:white; 
     position:relative;
