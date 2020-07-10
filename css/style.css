@@ -1,74 +1,223 @@
-p{
-    color: white;
-    border: dotted;
-    font-family:courier;
-}
-
-a{
-    color:purple;
-}
-
-h3{
-    color:purple;
-}
-
-#basketball {
-    border: solid;
-    border-color: white;
-    border width: 6 px;
-    padding: 25 px; 
-}
-
-h1{
-    color:white;
-    position: sticky;
-    top:0px;
-
-    font: courier;
-    text-decoration: underline;
-}
-
-#friendimage{
-    border:dashed;
+#head{
+    position:relative;
+    top:30px;
 }
 
 body{
     background-attachment: fixed;
 }
 
-.warriorsplayers{
-    height: 200px;
+#headerbox{
+    text-align: center;
+    background-color:white;
+    height:120px;
 }
 
-h3{
+#subhead{
+    text-align: center;
+    color:black;
+    position:relative;
+    top:-75px;
+}
+
+#subheadbox{
+   background-color: lightskyblue;
+}
+
+#footballpicture{
+    height: 795px;
+}
+
+#imagecaption{
+  color: white;  
+  background-color:lightskyblue;
+  width: 250px;
+  border: 15px;
+  padding: 20px;
+  margin: 20px;
+  position:absolute;
+  top:300px;
+  font-size: 30px;
+}
+
+#directory{
+   background-color: lightskyblue;
+   width: 250px;
+   border: 20px;
+   padding: 20px;
+   margin: 40px;
+   float:right;
+}
+
+body{
+    background-color:black;
+    font-family: "Verdana";
+}
+
+#paragraphs{
+    text-align: left;
+    color:white;
+    font-size:20px;
+}
+
+a{
+    color:black;
+}
+
+.listhead{
+    color:lightskyblue;
+}
+
+li{
     color:white;
 }
 
-#basketballlist{
-    position: relative;
-    bottom:120px;
-    left: 260px;
+#thewarriors{
+    position:absolute;
+    left:330px;
+    top:1350px;
+    border: dashed;
+    border-color:lightskyblue;
+}
+
+#thegiants{
+    position:absolute;
+    left:650px;
+    top:1350px;
+    border: dashed;
+    border-color:lightskyblue;
+}
+
+#theniners{
+    position:absolute;
+    left:1090px;
+    top:1350px;
+    border: dashed;
+    border-color:lightskyblue;
+}
+
+.sportpics{
+    height: 200px;
 }
 
 #warriorstitle{
     text-decoration: underline;
-    color:black;
+    color:lightskyblue;
     position:relative;
+    text-align: center;
+    font-size: 35px;
+}
+
+#basketball {
+    color:white;
+    margin:auto;
+    font-size: 26px;
+   
+}
+
+#warriorslogo{
+    float:left;
+}
+
+h5{
+    color:white;
+}
+
+.click{
+    background-color: black;
+    width: 300px;
+    border: 15px;
+    padding: 0.5px;
+    margin: 20px;
+}
+
+.list1{
+    height:120px;
+    width:200px;
+    border:1pxsolid white;
+    font:16px Georgia; 
+    background-color:lightskyblue; 
+    overflow:auto;
+}
+
+#basketballlist{
+    position: relative;
+    bottom:119px;
+    left: 260px;
+}
+
+.warriorsplayers{
+    height: 250px;
+    padding: 10px;
+}
+
+#stephstats{
+    width:500px;
+    background-color:white; 
+    position:absolute;
+    padding: 10px;
+    top:1975px;
+    right:320px;
+    text-align: center; 
+}
+
+#h2{
+    text-decoration: underline;
+}
+
+
+
+
+#giantstitle{
+    text-decoration: underline;
+    color:lightskyblue;
+    position:relative;
+    text-align: center;
+    font-size: 35px;
+}
+
+#baseball {
+    color:white;
+    margin:auto;
+    font-size: 26px;
+}
+
+#giantslogo{
+    float:left;
+    padding: 10px;
+}
+
+h5{
+    color:white;
+}
+
+.click{
+    background-color: black;
+    width: 300px;
+    border: 15px;
+    padding: 0.5px;
+    margin: 20px;
+}
+
+#baseballlist{
+    position: relative;
+    bottom:119px;
+    left: 260px;
 }
 
 .giantsplayers{
-    height: 200px;
+    height: 310px;
+    padding: 10px;
 }
 
-#giantstitle{
+#poseystats{
+    width:500px;
+    background-color:white; 
     position:relative;
-    text-decoration: underline;
-    color:black;
+    bottom:340px;
+    left:500px;
+    text-align: center; 
 }
 
-#baseball{
-    border: solid;
-    border-color: white;
-    border width: 6 px;
-    padding: 25 px; 
-}
+
+
