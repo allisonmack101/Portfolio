@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Events!</title>
+
+  </head>
+  <body>
+    <h1>Please press the A, B, C, or D buttons!</h1>
+
+    
+    <script type="text/javascript">
+var rightChoiceCount = 0;
+
+document.onkeyup = function(event) {
+var keyPressed = event.key;
+  if (keyPressed === "a" || keyPressed === "b" || keyPressed === "c" || keyPressed === "d"){
+    rightChoiceCount= rightChoiceCount + 1;
+    alert("YOU PRESSED A GOOD BUTTON " + rightChoiceCount + " TIMES IN A ROW!")
+  } else{
+    rightChoiceCOunt = 0;
+    alert("WRONG CHOICE! TRY AGAIN!")
+  }
+};
+    </script>
+  </body>
+</html>

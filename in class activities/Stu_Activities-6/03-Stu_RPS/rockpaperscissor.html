@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <h1>Press r, p, or s to start</h1>
+
+<script type="text/javascript">
+
+var userInput;
+var computerInput;
+var computerInputEn;
+var userInputEn;
+var userWins = 0;
+var userLosses = 0;
+var userTies = 0;
+
+document.onkeyup = function(event){
+    if(event.key === "r" || event.key === "p" || event.key === "s"){
+       userInput = event.key;
+       computerInput = Math.floor (Math.random()*3);
+    if(computerInput === 0){
+       computerInputEn = "Rock";
+    }else if(computerInput === 1){
+       computerInputEn = "Scissor";
+    }else{
+       computerInputEn = "Paper"
+        }
+
+    if(userInput === "r"){
+        userInputEn = "Rock";
+    }else if( userInput === "s"){
+        userInputEn = "Scissor";
+    }else{
+        userInputEn = "Paper"
+        }
+        
+ //computer 0 = rock   computer 1 = sciss   comp 2 = and paper
+//winning
+if((userInput === "r" && computerInput === 1) || (userInput === "p" && computerInput ===0)     ||(userInput === "s" && computerInput === 2)){
+    userWins +=1;
+    alert(
+    "You selected " + userInputEn + " and the computer selected "+ computerInputEn +
+    "\nYou won!" +
+    "\nWins: " + userWins +
+    "\nLosses: " + userLosses +
+    "\nTies: " + userTies
+    );
+}else if((userInput === "r" && computerInput === 2) || (userInput === "p" && computerInput === 1) || (userInput === "s" && computerInput === 0)){
+    //losing
+    userLosses +=1;
+    alert(
+    "You selected " + userInputEn + " and the computer selected " + computerInputEn +
+    "\nYou lost."+
+    "\nWins: " + userWins +
+    "\nLosses: " + userLosses +
+    "\nTies: " + userTies);
+
+} else{
+    //tie
+    userTies +=1;
+    alert(
+    "You selected " + userInputEn + " and the computer selected "+ computerInputEn +
+    "\nYou tied!"+
+    "\nWins: " + userWins +
+    "\nLosses: " + userLosses +
+    "\nTies: " + userTies);
+    }
+
+}else {
+   alert("Put in R, P, or S!")
+    }
+    
+}
+
+
+</script>
+</body>
+</html>
